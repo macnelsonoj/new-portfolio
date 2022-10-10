@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+.up {
+  background-color: rgb(235, 253, 255);
+  height: 80vh;
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+.im {
+  padding-top: 20%;
+}
+
+.img3 {
+  display: flex;
+  justify-content: center;
+  /* align-self: flex-end; */
+  height: 26vh;
+}
+
+.p {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-top: 5%;
+  color: white;
+}
+.name {
+    color: rgb(73, 173, 143);
+  font-family: Trattatello, fantasy;
+  font-size: 400%;
+  line-height: 110%;
+}
+.ap {
+  font-size: xx-large;
+}
+.un{
+    text-decoration: underline;
+}
+
+.profile{
+    background-color:white;
+    height: 80vh;
+display: flex;
+justify-content: center;
+    
+}
+.icon{
+padding-left:27% ;
+height: 32vh;
+padding-top: 20%;
+
+}
+.hello{
+ 
+    text-align: center;
+font-size: xx-large;
+color:rgb(73, 173, 143) ;
+}
+.des{
+    
+    text-align: center;
+    font-family:s;
+}
+.dot{
+    font-size: x-large;
+    line-height: 100px;
+    
+}
+.skill{
+  height: 80vh;
+  width: 100%;
+}
+.skil{
+ 
+width: 55%;
+padding-left: 23%;
+
+}
+.skil1{
+  text-align: center;
+  font-size: xx-large;
+  color:rgb(73, 173, 143) ;
+
+}
+hr{
+  height: 1vh;
+  background-color: rgb(61, 61, 61);
+  
+}
+.hr{
+  margin-top: 18%;
+}
+.web{
+  margin-top: 15px;
+}
+.img4{
+
+  height: 32vh;
+  float: left;
+  padding-left: 20px;
+}
+.web1{
+ color: rgb(102, 184, 159);
+  padding-left: 38%;
+  padding-top: 3%;
+}
+.webdes{
+  padding-left: 38%;
+  font-size: 15px;
+font-family: s;
+padding-top: 2%;
+}
+.img5{
+  height: 32vh;
+  float: right;
+  padding-left: 20px;
+  padding-top: 2%;
+}
+.fal{
+  color: rgb(73, 173, 143);
+  padding-top: 4%;
+  padding-bottom: 2%;
+
+}
+.web2{
+  font-size: 15px;
+font-family: s;
+padding-top: 2%;
+}
+.dot1{
+  font-size: x-large;
+    line-height: 100px;
+    padding: 45%;
+}
+.myp{
+  background-color: rgb(255, 213, 213);
+  height: 20vh;
+  margin-top: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.mypo{
+  color: green;
+  font-size: xx-large;
+  text-align: center;
+padding-top: 20%;
+}
+.hr1{
+  margin-top: 2%;
+  height: 0.5vh;
+  background-color: rgb(73, 173, 143);
+  width: 63%;
+  margin-left: 18%;
+  
+}
+.ul1{
+  background-color: rgb(255, 213, 213);
+ --gap:16px;
+ --num-cols:4;
+ --row-height:300px;
+margin-left: 15%;
+ box-sizing: border-box;
+ padding: var(--gap);
+
+ display: grid;
+grid-template-columns: repeat(var(--num-cols), 1fr);
+
+grid-auto-rows: var(--row-height);
+gap: var(--gap);
+}
+
+.ul1-grid > img{
+  width: 100%;
+  height: 100%;
+}
+.i1:hover{
+  transform: scale(1.2);
+}
+.i2:hover{
+  transform: scale(1.2);
+}
+.i3:hover{
+  transform: scale(1.2);
+}
